@@ -1,0 +1,54 @@
+<ion-view view-title="Home">
+    <ion-nav-buttons side="right">
+        <a href="#/home">
+            <button class="button button-icon ion-home"></button>
+        </a>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="item item-image" style="height:60px; background-color: #37C8B7;">
+            <h1 style="text-align: center;margin-top: 12px;color: azure; font-size: 28px;">
+            ORIGINAL 4 SURE
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="item-image">
+                        <a href="#/inputValue" class="item item-icon-left">
+                            <i class="icon ion-search"></i> Input The Code
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="item-image">
+                        <a href="#/scanValue" class="item item-icon-left">
+                            <i class="icon ion-qr-scanner"></i> Scan BarCode.
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- <div class="item-image">
+                        <a href="#" class="item item-icon-left">
+                            <i class="icon ion-social-twitter"></i> O4S feeds.
+                        </a>
+                    </div>
+                    <div class="list" ng-repeat="entry in home_timeline">
+                        <div class="item item-avatar">
+                            <img ng-src="{{entry.user.profile_image_url}}" />
+                            <h2>{{entry.user.name}}</h2>
+                            <p>{{correctTimestring(entry.created_at) | date:'medium'}}</p>
+                        </div>
+                        <div class="item item-body">
+                            <p ng-bind-html="entry.text"></p>
+                            <img ng-if="entry.extended_entities" ng-src="{{ entry.extended_entities.media[0].media_url }}" style="width: 100%;" />
+                        </div>
+                    </div> -->
+                    <div class="item item-text-wrap">
+                        O4S makes sure that the products you buy, speak themselves about their genuineness.
+                        <!-- <a href="#/success">www.o4scheck.com</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
